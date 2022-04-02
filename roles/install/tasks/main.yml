@@ -1,7 +1,7 @@
 ---
 
 - name: Installing Apache, MYSQL DB Community edition & PHP
-  yum: 
+  dnf: 
     name: 
       - httpd
       - mysql-community-server
